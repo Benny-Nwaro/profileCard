@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ProfileCard() {
   return (
-    <div className=" rounded-xl p-8 md:p-0 bg-orange-300  mt-10  mx-48">
+    <div className=" rounded-xl p-8 md:p-0 bg-orange-300  mt-10 mx-64">
           <img className="w-24 h-24 md:w-48 md:h-auto  rounded-full mx-auto" src="https://img.freepik.com/premium-psd/3d-cartoon-man-smiling-portrait-isolated-transparent-background-png-psd_888962-1570.jpg" alt="" width="384" height="512"/>
 
     
