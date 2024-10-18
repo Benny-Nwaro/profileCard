@@ -2,11 +2,19 @@ import React from 'react'
 
 export default function ProfileCard() {
   return (
-    <div className=" rounded-xl p-8 md:p-0 bg-orange-300 px-32 mx-32">
+    <div className=" rounded-xl p-8 md:p-0 bg-orange-300 px-32 mt-10 mx-48">
           <img className="w-24 h-24 md:w-48 md:h-auto  rounded-full mx-auto" src="https://img.freepik.com/premium-psd/3d-cartoon-man-smiling-portrait-isolated-transparent-background-png-psd_888962-1570.jpg" alt="" width="384" height="512"/>
 
     
  <div className=" rounded-xl p-8 md:p-0 bg-orange-300 px-32 mx-32">
+ <figcaption className="font-medium">
+      <div className=" text-zinc-950 text-center p-10">
+        Ben Aroh
+      </div>
+      <div className="text-slate-700 dark:text-slate-500 text-center">
+        Staff Engineer, Algolia
+      </div>
+    </figcaption>
   <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
     <blockquote>
       <p className="text-lg font-medium">
@@ -15,14 +23,7 @@ export default function ProfileCard() {
         and the build size is tiny.”
       </p>
     </blockquote>
-    <figcaption className="font-medium">
-      <div className="text-sky-500 dark:text-sky-400">
-        Ben Aroh
-      </div>
-      <div className="text-slate-700 dark:text-slate-500">
-        Staff Engineer, Algolia
-      </div>
-    </figcaption>
+  
     <button class=" bg-slate-50 w-6/12 h-20 text-slate-500 font-bold py-2 px-4 rounded-full">
   Class Subscribe
 </button>
