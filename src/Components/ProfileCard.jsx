@@ -2,41 +2,45 @@ import React from 'react'
 
 export default function ProfileCard() {
   return (
-    <div className=" rounded-xl p-8 md:p-0 bg-orange-300 px-32 mt-10 mx-48">
+    <div className=" rounded-xl p-8 md:p-0 bg-orange-300  mt-10  mx-48">
           <img className="w-24 h-24 md:w-48 md:h-auto  rounded-full mx-auto" src="https://img.freepik.com/premium-psd/3d-cartoon-man-smiling-portrait-isolated-transparent-background-png-psd_888962-1570.jpg" alt="" width="384" height="512"/>
 
     
  <div className=" rounded-xl p-8 md:p-0 bg-orange-300 px-32 mx-32">
  <figcaption className="font-medium">
-      <div className=" text-zinc-950 text-center p-10">
+      <h2 className=" text-zinc-950 text-center text-2xl ">
         Ben Aroh
-      </div>
+      </h2>
       <div className="text-slate-700 dark:text-slate-500 text-center">
-        Staff Engineer, Algolia
+        Staff Engineer
       </div>
     </figcaption>
-  <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
-    <blockquote>
-      <p className="text-lg font-medium">
+  <div className="md:p-8  text-center md:text-left space-y-4">
+   
+      <p className="text-lg px-48 text-center font-medium">
         “Tailwind CSS is the only framework that I've seen scale
         on large teams. It’s easy to customize, adapts to any design,
         and the build size is tiny.”
       </p>
-    </blockquote>
-  
-    <button class=" bg-slate-50 w-6/12 h-20 text-slate-500 font-bold py-2 px-4 rounded-full">
-  Class Subscribe
-</button>
-<button class=" bg-slate-50 w-6/12 h-20 text-slate-500 font-bold py-2 px-4 rounded-full">
-  Studio info
-</button>
-<button class=" bg-slate-50 w-6/12 h-20 text-slate-500 font-bold py-2 px-4 rounded-full">
-  Up coming Events
-</button>
-<button class=" bg-slate-50 w-6/12 h-20 text-slate-500 font-bold py-2 px-4 rounded-full">
-About
-</button>
+   
+
+    <div className='flex flex-col space-y-8 px-20 align-middle justify-center '>
+          
+          <button class=" bg-slate-50 w-full h-20 text-slate-500 font-bold rounded-full">
+        Class Subscribe
+      </button>
+      <button class=" bg-slate-50 w-full h-20 text-slate-500 font-bold rounded-full">
+        Studio info
+      </button>
+      <button class=" bg-slate-50 w-full h-20 text-slate-500 font-bold  rounded-full">
+        Up coming Events
+      </button>
+      <button class=" bg-slate-50 w-full h-20 text-slate-500 font-bold  rounded-full">
+      About
+      </button>
+</div>
 <div>
+
 
 <ul class="flex justify-center mt-5 space-x-5">
     <li>
@@ -87,16 +91,11 @@ About
 </ul>
 
 
-
-
-
-
-
-
 </div>
 
 
   </div>
+  
   
 </div>
 </div>
